@@ -397,46 +397,9 @@ Config.GaragesMecano = {
 	-- },
 }
 
-Config.BoatGarages = {
-	BoatGarage_Centre = {
-		Pos = {x = -742.47064208984,y = -1332.4702148438,z = 1.59 },
-		Marker = { w= 1.5, h= 1.0,r = 204, g = 204, b = 0},
-		Name = _U('boat_garage_name'),
-		HelpPrompt = _U('open_boat_garage'),
-		SpawnPoint = {
-			Pos = {x = -736.47064208984,y = -1342.4702148438,z = 1.0 },
-			MarkerPos = {x = -733.58,y = -1338.62,z = 1.5 },
-			Heading = 230.0,
-			Marker = { w= 1.5, h= 1.0,r=0,g=255,b=0},
-			HelpPrompt = _U('spawn_boat')
-		},
-		DeletePoint = {
-			Pos = {x = -740.06408691406,y = -1361.8474121094,z = 1.8801808655262 },
-			Marker = { w= 3.5, h= 1.0,r=255,g=0,b=0},
-			HelpPrompt = _U('store_boat')
-		}, 	
-	},
-}
+Config.BoatGarages = {}
 
-Config.AirplaneGarages = {
-	AirplaneGarage_Centre = {
-		Pos = {x = -1280.1153564453,y = -3378.1647949219,z = 13.940155029297 },
-		Marker = { w= 1.5, h= 1.0,r = 204, g = 204, b = 0},
-		Name = _U('plane_garage_name'),
-		HelpPrompt = _U('open_plane_garage'),
-		SpawnPoint = {
-			Pos = {x = -1285.1153564453,y = -3382.1647949219,z = 13.940155029297 },
-			Heading = 160.0,
-			Marker = { w= 1.5, h= 1.0,r=0,g=255,b=0},
-			HelpPrompt = _U('spawn_plane')
-		},
-		DeletePoint = {
-			Pos = {x = -1287.5788574219,y = -3390.4025878906,z = 13.940155029297 },
-			Marker = { w= 1.5, h= 1.0,r=255,g=0,b=0},
-			HelpPrompt = _U('store_plane')
-		}, 	
-	},
-}
+Config.AirplaneGarages = {}
 
 
 Config.SocietyGarages = {
